@@ -1,0 +1,167 @@
+body{
+    background-color: rgba(155, 67, 255, 0.35) ;
+}
+div#bg{
+    border: #000000 solid 2px;
+    border-radius: 24px;
+    background-image: url(https://images.unsplash.com/photo-1557682250-33bd709cbe85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHVycGxlfGVufDB8fDB8fHww);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius:25px ;
+    padding: 10px 100px 15px 100px;
+    margin: 10px auto;
+    width: max-content;
+    
+    /* margin-left: 350px; */
+    /* margin-right: 350px; */
+}
+p{
+    /* login thing */
+    font-size: 75px;
+    text-align: center;
+    background-color: #f0ffff82;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.75);
+    /* padding-top: 150px; */
+    border-radius: 25px;
+    border: azure solid 5px;
+    width: 300px;
+    margin-left: 145px;
+    font-family:  sans-serif;
+    font-weight: 600;
+    /* text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); */
+    /* padding-bottom: -200px; */
+}
+div.login{
+    width: 300px;
+}
+div.div1{ 
+    /* email thing */
+    text-align: center;
+    font-size:30px;
+    font-weight: 600;
+    margin-right: 26px;
+    font-family: sans-serif;
+    background-color: rgba(192, 172, 255, 0.755)  ;
+    padding: 18px;
+    width: fit-content;
+    margin-left: 120px;
+    border-radius: 20px;
+}
+div.div1:hover{
+    color: white;
+    background-color: #000000;
+}
+div.div2{
+    /* password thing */
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    background-color: rgba(192, 172, 255, 0.755)  ;
+    padding: 18px;
+    width: fit-content;
+    margin-left: 90px;
+    border-radius: 20px;
+}
+div.div2:hover{
+    color: white;
+    background-color: #000000;
+}
+input#email{
+    /* width: 300px; */
+    width: 200px; 
+    height: 25px;
+}
+input#pass{
+    width: 200px; 
+    height: 25px;
+}
+input#remember{
+    
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 100px;
+    background-color: aliceblue;
+    transform: scale(1.5);
+}
+div#remember{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    margin-left: 20px;
+}
+a#password{
+    margin-left: 70px;
+    color: white;
+}
+input#loginbtn{
+    margin-left: 190px;
+    margin-top: 40px;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(189, 119, 255, 0.821);
+    border: 5px solid black;
+    border-radius: 24px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    /* color: rgba(208, 93, 250, 0.745); */
+}
+input#loginbtn:hover{
+    color: white;
+    background-color: #000000;
+}
+
+hr#hr1{
+    margin-top: 20px;
+}
+input#google{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 250px;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-right: 50px;
+    /* padding-left: -50px; */
+    background-image: url(https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png);
+    background-size: 34px;
+    background-repeat: no-repeat;
+    background-position: 205px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+    font-weight: bolder;
+    margin-right: 80px;
+    cursor: pointer;
+}
+input#google:hover{
+    color: white;
+    background-color: #000000;
+}
+input#fb{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    /* margin-left: 10px; */
+    width: 250px;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding-right: 50px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+    font-weight: bolder;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png);
+    background-size: 34px;
+    background-repeat: no-repeat;
+    background-position: 210px;
+    cursor: pointer;
+}
+input#fb:hover{
+    color: white;
+    background-color: #000000;
+}
